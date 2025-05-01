@@ -7,11 +7,7 @@ import InputLabel from "../common/InputLabel";
 import Textarea from "../common/Textarea";
 import { useAuth } from "./AuthContext";
 import {
-  collection,
-  query,
-  where,
-  onSnapshot,
-  orderBy,
+ 
   doc,
   updateDoc,
 } from "firebase/firestore";
